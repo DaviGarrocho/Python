@@ -1,0 +1,8 @@
+nm = float(input('Escreva uma distancia em metros: '))
+print('a distancia {}M corresponde a:')
+print('{}KM'.format(nm/1000))
+print('{}HM'.format(nm/100))
+print('{}DAM'.format(nm/10))
+print('{:.0f}DM'.format(nm*10))
+print('{:.0f}CM'.format(nm*100))
+print('{:.0f}MM'.format(nm*1000))
